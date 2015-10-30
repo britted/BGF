@@ -1,0 +1,106 @@
+/*jumbotron color: 584D7D
+text color: 351938
+background: E2EDE1
+accent:7486B5; */
+#index, #aboutMe, #contact, #project, #research, #resume, #thankyou{
+  font-family: 'Muli', sans-serif;
+  color:#351938;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+  font-family: 'Exo', sans-serif;
+}
+
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  color:black;
+  text-align: center;
+}
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.nav-tabs {
+  border-bottom: #7486B5;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #351938;
+  background-color: transparent;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active {
+  color: #000;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav .active {
+  background-color: red;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: transparent;
+}
+.head_wrapper{
+margin-bottom: 100px;
+}
+
+#index .row{
+  margin-top: 50px;
+}
+
+#index .large_view .row_one .A11, .large_view .row_one .A13 .L, .large_view .row_two .A21 .L, .large_view .row_two .A22 .R{
+  background-image: url("header3.jpg");
+  height: 50vh;
+  background-size:cover;
+  background-position: center;
+}
+
+#index .large_view .row_one .A13 .L, .large_view .row_two .A21 .L{
+  background-image: url("header2.jpg");
+  height: 50vh;
+  background-size:cover;
+}
+
+#index .large_view .row_two .A21 .L{
+  background-image: url("header1.png");
+  height: 50vh;
+  background-size:cover;
+}
+
+#index .small_view .row_one .A11, .small_view .row_three .A31 .L{
+  background-image: url("header3.jpg");
+  height: 50vh;
+  background-size:cover;
+}
+
+#index .small_view .row_three .A31 .L{
+  background-image: url("header1.png");
+  height: 50vh;
+  background-size:cover;
+  background-position: center;
+}
+
+#index .editors_picks .row .A21 .L{
+  background-image: url("header2.jpg");
+  height: 50vh;
+  background-size:cover;
+  background-position: center;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0px;
+  list-style: none;
+  padding: 0;
+}
